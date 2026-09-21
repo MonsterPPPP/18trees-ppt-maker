@@ -1,0 +1,17 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "18trees-ppt-maker",
+  "description": "做 PPT 的整套作业规范：六阶段全流程 + 委托人品味 + 强制子 Agent 独立评审，产出一份没有你也能自己讲清楚的 deck。",
+  "owner": {
+    "name": "十八木",
+    "url": "https://github.com/MonsterPPPP"
+  },
+  "plugins": [
+    {
+      "name": "ppt-maker",
+      "description": "从素材做到可直接发给别人看的网页 PPT 与 PDF，带品味约束与强制独立评审。",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

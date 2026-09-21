@@ -1,0 +1,41 @@
+{
+  "name": "ppt-maker",
+  "version": "0.1.0",
+  "description": "A full PPT production workflow skill: six phases from raw material to a self-explanatory HTML deck and PDF, with hard-won taste rules and a mandatory independent sub-agent review.",
+  "author": {
+    "name": "十八木",
+    "url": "https://github.com/MonsterPPPP"
+  },
+  "homepage": "https://github.com/MonsterPPPP/18trees-ppt-maker",
+  "repository": "https://github.com/MonsterPPPP/18trees-ppt-maker",
+  "license": "MIT",
+  "keywords": [
+    "ppt",
+    "slides",
+    "deck",
+    "presentation",
+    "html-slides",
+    "pdf-export",
+    "skills",
+    "claude-code",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PPT Maker",
+    "shortDescription": "做一份没有你也能自己讲清楚的 PPT",
+    "longDescription": "从素材做到可以直接发给别人看的网页 PPT 与 PDF：六阶段全流程（素材→大纲→网页 PPT→静态校验+独立评审→视口验证→导出打包），10 条 P0 铁律，两个可直接运行的校验与导出脚本，以及一个不许跳过的子 Agent 独立评审环节。规则来自一份 14 页商业 deck 的六轮真实反馈。",
+    "developerName": "十八木",
+    "category": "Productivity",
+    "capabilities": [
+      "Instructions"
+    ],
+    "websiteURL": "https://github.com/MonsterPPPP/18trees-ppt-maker",
+    "defaultPrompt": [
+      "用 $ppt-maker 根据这份材料做一份 PPT。",
+      "把这份大纲做成可以直接发给别人看的网页 PPT。",
+      "导出 PDF 并打包交付给我。"
+    ],
+    "brandColor": "#2F6B4F"
+  }
+}

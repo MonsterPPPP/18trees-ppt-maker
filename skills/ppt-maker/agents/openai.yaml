@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT Maker"
+  short_description: "做一份没有你也能自己讲清楚的 PPT"
+  default_prompt: "用 $ppt-maker 根据这份材料做一份 PPT，做完起一个子 Agent 扮演委托人做独立评审。"

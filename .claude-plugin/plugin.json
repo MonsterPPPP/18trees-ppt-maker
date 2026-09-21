@@ -1,0 +1,9 @@
+{
+  "name": "ppt-maker",
+  "version": "0.1.0",
+  "description": "做 PPT 的整套作业规范：六阶段全流程、具体到像素的品味雷区、强制子 Agent 独立评审。",
+  "author": {
+    "name": "十八木",
+    "url": "https://github.com/MonsterPPPP"
+  }
+}

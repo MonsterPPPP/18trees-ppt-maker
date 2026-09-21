@@ -1,0 +1,22 @@
+# 统一用 LF。仓库里有 Markdown、Node 脚本和 HTML 模板，
+# 如果按 Windows 的 autocrlf 转成 CRLF，.mjs 在 Linux/Mac 上会出问题。
+* text=auto eol=lf
+
+*.md text eol=lf
+*.mjs text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.txt text eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.pptx binary

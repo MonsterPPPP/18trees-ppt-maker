@@ -223,7 +223,7 @@ Once feedback arrives, just say it plainly:
 │   │   └── export-pdf.mjs                  export PDF + three-file bundle packaging
 │   └── agents/openai.yaml                  Codex UI metadata
 ├── assets/banner.webp                      brand banner
-└── CONTRIBUTING.md / AGENTS.md / LICENSE
+└── CONTRIBUTING.md / AGENTS.md / LICENSE / NOTICE.md
 ```
 
 ---
@@ -262,4 +262,6 @@ In this space, **the engine layer already has an absolute winner, and the "spec 
 
 ## License
 
-[MIT](LICENSE) © 2026 十八木 —— this repository contains none of upstream's (AGPL-3.0) assets; upstream is a runtime dependency, not a redistribution, and that is the only reason this layer can choose its own license. **Packaging the two together for distribution changes that.** See [`references/engine.md`](skills/ppt-maker/references/engine.md) for details.
+[MIT](LICENSE) © 2026 十八木 — this repository contains none of upstream's (AGPL-3.0) assets; upstream is a runtime dependency, not a redistribution, and that is the only reason this layer can choose its own license.
+
+**Packaging the two together for distribution changes that** — the third-party dependency and the boundary are documented in [NOTICE.md](NOTICE.md), with details in [`references/engine.md`](skills/ppt-maker/references/engine.md).

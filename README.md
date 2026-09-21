@@ -223,7 +223,7 @@ ls <SKILLS_DIR>/guizang-ppt-skill/assets/template-swiss.html
 │   │   └── export-pdf.mjs                  导出 PDF + 三件套打包
 │   └── agents/openai.yaml                  Codex UI 元数据
 ├── assets/banner.webp                      品牌 banner
-└── CONTRIBUTING.md / AGENTS.md / LICENSE
+└── CONTRIBUTING.md / AGENTS.md / LICENSE / NOTICE.md
 ```
 
 ---
@@ -262,4 +262,6 @@ ls <SKILLS_DIR>/guizang-ppt-skill/assets/template-swiss.html
 
 ## License
 
-[MIT](LICENSE) © 2026 十八木 —— 本仓库不含上游（AGPL-3.0）的任何资产，对上游是运行时依赖而非再分发，故本层可自主选择许可。**打包两者一起分发会改变这一点**，详见 [`references/engine.md`](skills/ppt-maker/references/engine.md)。
+[MIT](LICENSE) © 2026 十八木 —— 本仓库不含上游（AGPL-3.0）的任何资产，对上游是运行时依赖而非再分发，故本层可自主选择许可。
+
+**打包两者一起分发会改变这一点** —— 第三方依赖关系与边界说明见 [NOTICE.md](NOTICE.md)，细节见 [`references/engine.md`](skills/ppt-maker/references/engine.md)。
